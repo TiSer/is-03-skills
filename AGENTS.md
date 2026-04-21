@@ -71,6 +71,7 @@ Available skills in this project:
 - **excalidraw-quality-gate** (`.agents/skills/`) — Run a fast, ordered validation workflow with script-backed checks before wider test runs
 - **excalidraw-action-implementation** (`.agents/skills/`) — Implement and wire `actionManager` actions safely, with additional reference checklist
 - **excalidraw-bugfix-playbook** (`.agents/skills/`) — Reproduce, isolate, fix, and verify Excalidraw regressions using a consistent bugfix flow
+- **excalidraw-webapp-testing** (`.agents/skills/`) — Validate Excalidraw UI/action behavior with focused webapp checks (adapted from Anthropic community skills)
 
 Skill validation report:
 
