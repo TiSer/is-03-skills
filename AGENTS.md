@@ -68,3 +68,10 @@ excalidraw-monorepo/
 Available skills in this project:
 
 - **creating-excalidraw-components** (`.agents/skills/`) — Create React components following Excalidraw's patterns and conventions
+- **excalidraw-quality-gate** (`.agents/skills/`) — Run a fast, ordered validation workflow with script-backed checks before wider test runs
+- **excalidraw-action-implementation** (`.agents/skills/`) — Implement and wire `actionManager` actions safely, with additional reference checklist
+- **excalidraw-bugfix-playbook** (`.agents/skills/`) — Reproduce, isolate, fix, and verify Excalidraw regressions using a consistent bugfix flow
+
+Skill validation report:
+
+- `.agents/skills/SKILL_TEST_REPORT.md` — scenario-based comparison of results with and without `excalidraw-quality-gate`
